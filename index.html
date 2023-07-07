@@ -4,8 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First form</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    
+    <main>
+        <section>
+            <hr class="new1">
+            <h2>search engine</h2>
+            <hr class="new1">
+            <div>
+                <label for="search"> Search your image here:
+                    <input type="text">
+                    <button>Submit</button> <br>
+                    <br>
+                      <img src="images/photo-1682685797743-3a7b6b8d8149.avif" alt="nature" width="400px"> <br>
+                      <caption>Climbing</caption>
+                    
+            </div> <br>
+            <a style="text-decoration: none;" href="https://www.google.com/"> for more click here</a>
+        </section>
+    </main>
+    <section>
+        <h2>feedback form</h2>
+        <div>
+            <label for="name"> Name: <br>
+                <input type="text">
+
+            </label> <br>
+            <form action="/action_page.php">
+                <label for="Date">Date: <br>
+                    <input type="datetime-local" id="date" name="date">
+                    <input class="submit" type="submit">
+                </label>
+            </form>
+            <label for="Comment">Comment: <br>
+            <textarea name="Comment" id="Comment" cols="30" rows="10"></textarea>
+            </label>
+        </div>
+        <button class="submit">Submit</button>
+    </section>
 </body>
 </html>
